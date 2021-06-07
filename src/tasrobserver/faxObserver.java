@@ -9,6 +9,7 @@ public class faxObserver extends Observer{
 
     @Override
     public void update() {
+        System.out.println("fax: " + tasr.getMessage());
 
     }
 }

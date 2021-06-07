@@ -9,6 +9,7 @@ public class smsObserver extends Observer{
 
     @Override
     public void update() {
+        System.out.println("SMS: " + tasr.getMessage());
 
     }
 }

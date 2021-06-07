@@ -9,6 +9,7 @@ public class fbObserver extends Observer{
 
     @Override
     public void update() {
+        System.out.println("FB: " + tasr.getMessage());
 
     }
 }
